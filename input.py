@@ -1,8 +1,16 @@
-print("Program to define different ways to take input\n")
+class school():
+	"""docstring for ClassName"""
+	def __init__(self):
+		self.name = input("Enter School name : ")
+		self.address = input("Enter School address : ")
 
-print("The next line takes input from user")
-user_input = input()
-print("You entered :", user_input)
-print("Taking input while showing a message")
-input2 = input("Enter your name : ")
-print("Hello!", input2)
+	def show(self):
+		print("{} is situated at {}".format(self.name,self.address))
+
+item1 = school()
+item1.show()
+
+
+
+		
+	
